@@ -1,10 +1,10 @@
 package me.finnbon.maneuvergear;
 
-import me.finnbon.maneuvergear.command.GiveItemCommand;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import finnbon.maneuvergear.command.GiveItemCommand;
 import me.finnbon.maneuvergear.crafting.CraftingManager;
 import me.finnbon.maneuvergear.gear.HookManager;
 import me.finnbon.maneuvergear.listener.ActivationListener;

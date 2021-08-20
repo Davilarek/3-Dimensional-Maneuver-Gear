@@ -5,13 +5,19 @@ The plugin that brings soaring through the sky while attached to cables to Minec
 ## Getting Started
 
 To get a copy of this project on your system, simply fork, clone, download it. Whatever floats your boat.
+When you get ready, you need to change one line in `.classpath` (line 9) from 
+```xml
+<classpathentry kind="lib" path="F:/Games/SerweryMC/Pliki/BuildTools/Spigot/Spigot-API/target/spigot-api-1.16.4-R0.1-SNAPSHOT-shaded.jar">
+```
+to:
+```xml
+<classpathentry kind="lib" path="your/path/to/shaded/spigot/api/jar">
+```
+
 
 ### Prerequisites
 
-This plugin was designed for [Spigot](https://www.spigotmc.org). It's currently known to work for the following versions:
-
- * 1.12.*
- * 1.11.*
+This plugin was designed for [Spigot](https://www.spigotmc.org). It's currently known to work for versions greater than 1.13. If you want older version, download the original plugin not mine fork.
 
 ### Installing
 
@@ -19,20 +25,14 @@ If you know how to navigate Github but can't install a Spigot plugin, honestly w
 
 Drop the JAR in your plugins folder.
 
-## Contributing
+## Issues
 
-If you believe to have found a bug, you may notify me of said problem or submit a Pull Request yourself. Telling me about it first is preferable, because I might already be working on a fix, for example.
-
-I am currently looking for translators! Here you can see which languages are in progress, and which have been added already! Please feel free to contact me if you'd like to translate the plugin. Your name will be listed on here as well as on [Spigot](https://www.spigotmc.org) as a contributer!
-
- | Language | Status | Translator | GitHub Account | SpigotMC Account |
- |----------|--------|------------|----------------|------------------|
- | English | Done | Finn_Bueno_ | [GitHub](https://github.com/FinnBueno) | [SpigotMC](https://www.spigotmc.org/members/finnbon.37739/) |
- | Dutch | WIP | Finn_Bueno_ | [GitHub](https://github.com/FinnBueno) | [SpigotMC](https://www.spigotmc.org/members/finnbon.37739/) |
+If you believe to have found a bug, please, submit an issue.
 
 ## Authors
 
 * **Finn Bon** - *Author* - [Finn_Bueno_](https://github.com/FinnBueno)
+* **Davilarek** - *Dev* - [Davilarek](https://github.com/Davilarek)
 
 ## License
 

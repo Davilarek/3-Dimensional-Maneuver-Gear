@@ -1,4 +1,4 @@
-package me.finnbon.maneuvergear.command;
+package finnbon.maneuvergear.command;
 
 import me.finnbon.maneuvergear.ManeuverGear;
 import me.finnbon.maneuvergear.crafting.CraftingManager;

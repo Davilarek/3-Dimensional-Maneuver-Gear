@@ -22,7 +22,7 @@ public class CraftingManager implements Listener {
     static {
         ItemMeta meta;
 
-        HOOK = new ItemStack(Material.IRON_BARDING);
+        HOOK = new ItemStack(Material.IRON_HORSE_ARMOR);
         meta = HOOK.getItemMeta();
         meta.setDisplayName(BOLD + "" + GRAY + "3D Maneuver Gear");
         meta.setLore(Collections.singletonList(DARK_GRAY + "Used for extreme mobility"));
@@ -48,7 +48,7 @@ public class CraftingManager implements Listener {
         ShapedRecipe hookRecipe = new ShapedRecipe(HOOK);
         hookRecipe.shape("III", "IPR", "III");
         hookRecipe.setIngredient('I', Material.IRON_BLOCK);
-        hookRecipe.setIngredient('P', Material.PISTON_BASE);
+        hookRecipe.setIngredient('P', Material.LEGACY_PISTON_BASE);
         hookRecipe.setIngredient('R', Material.STRING);
         plugin.getServer().addRecipe(hookRecipe);
     }
